@@ -6,17 +6,47 @@
 
 > **GovHack 2025 Project** - Optimizing school transport networks through AI-powered route optimization, real-time tracking, and safety management.
 
-## 🚀 Quick Start
+## 🎬 **LIVE DEMO - Ready to Run!**
+
+### **🚀 Quick Demo Start (2 minutes)**
+```bash
+git clone https://github.com/Meghanarchal/smartschoolgo.git
+cd smartschoolgo
+
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate  # Windows
+
+# Install demo dependencies
+pip install streamlit fastapi uvicorn folium plotly pandas numpy geopandas
+
+# Start interactive demo
+streamlit run demo_app.py
+
+# In another terminal, start API
+python demo_api.py
+```
+
+**🎯 Demo URLs:**
+- **Main Demo Interface**: http://localhost:8501
+- **API Backend**: http://localhost:8000
+- **API Documentation**: http://localhost:8000/docs
+
+**📋 Demo Guide**: See [DEMO_GUIDE.md](DEMO_GUIDE.md) for complete presentation instructions
+
+---
+
+## 🚀 Full System Setup
 
 ### Prerequisites
 - Python 3.10+
-- Docker & Docker Compose
+- Docker & Docker Compose (for full system)
 - PostgreSQL (optional if using Docker)
 - Redis (optional if using Docker)
 
 ### 1. Clone and Setup
 ```bash
-git clone https://github.com/govhack2025/smartschoolgo.git
+git clone https://github.com/Meghanarchal/smartschoolgo.git
 cd smartschoolgo
 
 # Create virtual environment
